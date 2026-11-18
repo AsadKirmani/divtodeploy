@@ -10,7 +10,7 @@ import { BottomActionBar } from "./components/BottomActionBar";
 import { EventSheet } from "./components/EventSheet";
 
 export default function CalendarWidget() {
-  const [currentDate, setCurrentDate] = useState(new Date());
+  const [currentDate, _setCurrentDate] = useState(new Date());
   const [viewMode, setViewMode] = useState("weekly");
   const [isEventSheetOpen, setIsEventSheetOpen] = useState(false);
 
